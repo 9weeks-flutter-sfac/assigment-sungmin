@@ -13,10 +13,11 @@ class MyIntroduce extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: RichText(
-            textAlign: TextAlign.center, //전체 글 중앙정렬
+            textAlign: TextAlign.center,
+            //전체 글 중앙정렬
             text: const TextSpan(
                 style: TextStyle(
-                  //전체 글씨체 지정
+                  //전체 글씨체 지정한다
                   color: Colors.black,
                   fontSize: 15,
                 ),
